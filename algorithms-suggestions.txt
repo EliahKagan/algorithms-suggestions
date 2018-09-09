@@ -18,7 +18,7 @@ Define and write tests for:
     a binary tree node type (with no back-pointers).
     a helper function to make trees like f(4, f(3, {}}, {}}), f(5, {}}, {}})).
     a function that constructs a vector from a binary tree, in any order.
-    a function that finds a value's node, if present, in a singly linked list.
+    a function that finds a value's node, if present, in a binary tree.
     preorder, inorder, postorder, and level order traversal, to print values.
     iterative preorder traversal.
 
