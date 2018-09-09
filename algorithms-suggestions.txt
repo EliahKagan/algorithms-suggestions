@@ -27,7 +27,7 @@ Define and write tests for:
 
 Write functions and/or types that:
     given (undirected, unweighted) edges, build an adjacency list.
-    given edges, report of there is a (undirected) cycle.
+    given edges, report if there is a (undirected) cycle.
     given edges and {u, v} queries, report if vertices u and v are connected.
     given edges, report the number and size of components.
     use BFS, DFS, and union-find methods for those tasks (if not already done).
