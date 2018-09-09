@@ -1,5 +1,5 @@
 Define and write tests for (warmup):
-    a function that prints a vector, of anything printable, in a single line.
+    a function that prints a vector, of anything printable, on a line.
     a function that sorts a vector of int (can use std::sort).
     a function that sorts a vector of int, but puts all odds before all evens.
 
