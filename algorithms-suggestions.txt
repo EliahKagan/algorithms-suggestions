@@ -1,4 +1,4 @@
-Define and write tests tests for (warmup):
+Define and write tests for (warmup):
     a function that prints a vector, of anything printable, in a single line.
     a function that sorts a vector of int (can use std::sort).
     a function that sorts a vector of int, but puts all odds before all evens.
@@ -21,3 +21,10 @@ Define and write tests for:
 
 Define and write tests for:
     a function that detects violations of the tree's topological invariant.
+
+Write functions and/or types that:
+    given (undirected, unweighted) edges, build an adjacency list.
+    given edges, report of there is a (undirected) cycle.
+    given edges and {u, v} queries, report if vertices u and v are connected.
+    given edges, report the number and size of components.
+    use BFS, DFS, and union-find methods for those tasks (if not already done).
