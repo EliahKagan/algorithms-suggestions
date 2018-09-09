@@ -2,6 +2,7 @@ Define and write tests for (warmup):
     a function that prints a vector, of anything printable, on a line.
     a function that sorts a vector of int (can use std::sort).
     a function that sorts a vector of int, but puts all odds before all evens.
+    a function that finds an element in a vector (both with and without std::find).
 
 Define and write tests for:
     a class template providing an expanding (but not contracting) object pool.
@@ -10,13 +11,15 @@ Define and write tests for:
     a singly linked list node type.
     a function that constructs a singly linked list from a vector.
     a function that constructs a vector from a singly linked list.
+    a function that finds a value, if present, in a singly linked list.
     a function that checks if a singly linked list has a cycle.
 
 Define and write tests for:
     a binary tree node type (with no back-pointers).
     a helper function to make trees like f(4, f(3, {}}, {}}), f(5, {}}, {}})).
     a function that constructs a vector from a binary tree, in any order.
-    preorder, inorder, postorder, and level order traversal (and display).
+    a function that finds a value, if present, in a singly linked list.
+    preorder, inorder, postorder, and level order traversal, to print values.
     iterative preorder traversal.
 
 Define and write tests for:
