@@ -37,7 +37,7 @@ Define and write tests for (binary trees - other common operations):
 
 Define and write tests for (binary trees - topology and cycle detection):
     a function that detects violations of the tree's topological invariant.
-    a function that detects just violations that prevent normal traversals.
+    a function that detects only violations that prevent normal traversals.
 
 Write functions/types to (undirected graphs - representation and connectivity):
     given (undirected, unweighted) edges, build an adjacency list.
