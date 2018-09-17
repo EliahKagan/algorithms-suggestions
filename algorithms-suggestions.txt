@@ -32,8 +32,6 @@ Define and write tests for:
 
 Define and write tests for:
     function to check if trees' topology and corresponding values are the same.
-    function to check if a tree is a BST (binary search tree).
-    function to insert nodes into a BST, maintaining the BST property.
 
 Define and write tests for:
     a function that detects violations of the tree's topological invariant.
