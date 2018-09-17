@@ -12,7 +12,15 @@ Define and write tests for:
     a function that constructs a singly linked list from a vector.
     a function that constructs a vector from a singly linked list.
     a function that finds a value, if present, in a singly linked list.
+
+Define and write tests for:
+    a function that compares singly linked lists for sequence equality.
+    a function that reverses a singly linked list by rearranging its nodes.
+    a function that merges two sorted linked lists in sorted order.
+
+Define and write tests for:
     a function that checks if a singly linked list has a cycle.
+    a function that checks if two singly linked lists share any nodes.
 
 Define and write tests for:
     a binary tree node type (without parent pointers).
@@ -23,7 +31,13 @@ Define and write tests for:
     iterative preorder traversal.
 
 Define and write tests for:
+    function to check if trees' topology and corresponding values are the same.
+    function to check if a tree is a BST (binary search tree).
+    function to insert nodes into a BST, maintaining the BST property.
+
+Define and write tests for:
     a function that detects violations of the tree's topological invariant.
+    a function that detects just violations that prevent normal traversals.
 
 Write functions and/or types that:
     given (undirected, unweighted) edges, build an adjacency list.
