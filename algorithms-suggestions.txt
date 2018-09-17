@@ -31,7 +31,9 @@ Define and write tests for:
     iterative preorder traversal.
 
 Define and write tests for:
-    function to check if trees' topology and corresponding values are the same.
+    a function to check if trees' topology and corresponding data are the same.
+    a function to check if a tree is mirror-symmetric.
+    a function to turn a tree into its mirror image by rearranging its nodes.
 
 Define and write tests for:
     a function that detects violations of the tree's topological invariant.
