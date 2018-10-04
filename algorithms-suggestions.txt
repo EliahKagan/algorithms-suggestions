@@ -15,6 +15,7 @@ Define and write tests for (singly linked lists - creation and traversal):
 
 Define and write tests for (singly linked lists - other common operations):
     a function that compares singly linked lists for sequence equality.
+    a function that copies a singly linked list.
     a function that reverses a singly linked list by rearranging its nodes.
     a function that merges two sorted linked lists in sorted order.
 
