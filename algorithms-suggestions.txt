@@ -12,6 +12,7 @@ Define and write tests for (singly linked lists - creation and traversal):
     a function that constructs a singly linked list from a vector.
     a function that constructs a vector from a singly linked list.
     a function that finds a value, if present, in a singly linked list.
+    a function that splits a list into two lists based on matching a predicate.
 
 Define and write tests for (singly linked lists - other common operations):
     a function that compares singly linked lists for sequence equality.
