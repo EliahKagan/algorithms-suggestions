@@ -34,6 +34,7 @@ Define and write tests for (binary trees - creation and traversal):
 
 Define and write tests for (binary trees - other common operations):
     a function to check if trees' topology and corresponding data are the same.
+    a function to copy a tree.
     a function to check if a tree is mirror-symmetric.
     a function to turn a tree into its mirror image by rearranging its nodes.
 
