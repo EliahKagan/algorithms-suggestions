@@ -3,5 +3,5 @@ Future directions?
 directed graph topological sort by iterative DFS, by BFS
 undirected graph MSF by Prim's on each component, returning the MSF itself
 repeated Dijkstra's algorithm, returning data structure providing all shortest paths
-Morris traversal and related O(size) dismantling of a tree
+Morris traversal and related O(1) space dismantling of a tree (see note in Sutter)
 iterative deepening depth-first search of trees and graphs
