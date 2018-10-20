@@ -10,6 +10,7 @@ Define and write tests for (object pool):
 Define and write tests for (singly linked lists - creation and traversal):
     a singly linked list node type.
     a function that constructs a singly linked list from a vector.
+    a function that determines the size of a singly linked list.
     a function that constructs a vector from a singly linked list.
     a function that finds a value, if present, in a singly linked list.
     a function that splits a list into two lists based on matching a predicate.
@@ -27,6 +28,7 @@ Define and write tests for (singly linked lists - topology and cycle detection):
 Define and write tests for (binary trees - creation and traversal):
     a binary tree node type (without parent pointers).
     a helper function object to make trees like f(4, f(3, {}, {}), f(5, {}, {})).
+    a function that determines the size of a binary tree.
     a function that constructs a vector from a binary tree, in any order.
     a function that finds a value's node, if present, in a binary tree.
     preorder, inorder, postorder, and level order traversal, to print values.
