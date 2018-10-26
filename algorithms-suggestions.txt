@@ -24,6 +24,7 @@ Define and write tests for (singly linked lists - other common operations):
 Define and write tests for (singly linked lists - topology and cycle detection):
     a function that checks if a singly linked list has a cycle.
     a function that checks if two singly linked lists share any nodes.
+    (both hash-based and constant auxiliary space implementations.)
 
 Define and write tests for (binary trees - creation and traversal):
     a binary tree node type (without parent pointers).
