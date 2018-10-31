@@ -62,4 +62,4 @@ Write functions/types to (undirected graphs - representation and connectivity):
     given edges, report the number and size of components.
     given edges, report if the graph is bipartite.
     construct minimum spanning tree/forest via Kruskal's algorithm.
-    (use BFS, iterative and recursive DFS, and union-find, wherever applicable).
+    (use BFS, iterative and recursive DFS, and union-find, wherever applicable.)
