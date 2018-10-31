@@ -48,9 +48,11 @@ Define and write tests for (binary trees - other common operations):
 
 Define and write tests for (binary trees - topology/cycle detection/other):
     a function that detects violations of the tree's topological invariant.
-    a function that detects only violations that prevent normal traversals.
+        * this will check if there is a cycle or a (nonempty) shared subtree
+    a function that detects only violations preventing normal traversal.
+        * this will check just for cycles, but NOT for shared subtrees
     optional: a function that searches in one tree for a copy of another.
-    optional: a function that copies a tree, deduplicating contained subcopies.
+    optional: a function to copy a tree, with all duplicate subtrees shared.
     (both recursive and iterative implementations of each of these functions.)
 
 Write functions/types to (undirected graphs - representation and connectivity):
