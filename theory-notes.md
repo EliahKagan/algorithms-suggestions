@@ -2,8 +2,8 @@
 
 Each stack frame holds:
 
-- a return address, the link, *and*
-- local (automatic) variables, the data.
+- a return address, the **link**, *and*
+- local (automatic) variables, the **data**.
 
 The list is build from tail to head as functions are called, and correspondingly dismantled from head to tail as they return.
 
