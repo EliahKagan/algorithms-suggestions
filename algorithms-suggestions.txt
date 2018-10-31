@@ -49,7 +49,7 @@ Define and write tests for (binary trees - other common operations):
 Define and write tests for (binary trees - topology/cycle detection/other):
     a function that detects violations of the tree's topological invariant.
     a function that detects only violations that prevent normal traversals.
-    a function taking two trees and searching in one for a copy of the other.
+    optional: a function that searches in one tree for a copy of another.
     (both recursive and iterative implementations of each of these functions.)
 
 Write functions/types to (undirected graphs - representation and connectivity):
