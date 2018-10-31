@@ -39,6 +39,7 @@ Define and write tests for (binary trees - creation and traversal):
     iteratively implemented recursive preorder, inorder, and postorder algorithms.
 
 Define and write tests for (binary trees - other common operations):
+    a function to pretty-print a tree.
     a function to check if trees' topology and corresponding data are the same.
     a function to copy a tree.
     a function to check if a tree is mirror-symmetric.
