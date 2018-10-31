@@ -44,6 +44,7 @@ Define and write tests for (binary trees - other common operations):
     a function to copy a tree.
     a function to check if a tree is mirror-symmetric.
     a function to turn a tree into its mirror image by rearranging its nodes.
+    a function taking two trees and searching in one for a copy of the other.
     (both recursive and iterative implementations of each of these functions.)
 
 Define and write tests for (binary trees - topology and cycle detection):
