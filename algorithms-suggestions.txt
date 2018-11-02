@@ -53,6 +53,8 @@ Define and write tests for (binary trees - creation and traversal):
     iteratively implemented recursive preorder, inorder, and postorder algorithms.
     [optional] a function to compute the sum all of elements in a tree.
     [optional] a function to the maximum of that sum over all subtrees O(n) - values can be negative.
+    [optional] right-to-left preorder, inorder, and postorder traversals.
+    [optional] vertical order traversal.
 
 Define and write tests for (binary trees - other common operations):
     a function to pretty-print a tree.
