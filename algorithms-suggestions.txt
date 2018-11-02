@@ -46,7 +46,7 @@ Define and write tests for (binary trees - creation and traversal):
     a function to determine the size of a binary tree.
     a function to construct a vector from a binary tree, in any order.
     a function to find a value's node, if present, in a binary tree.
-    preorder, inorder, and postorder traversal (a) to print and (b) with functors.
+    preorder, inorder, and postorder traversal (a) to print and (b) applying a function object.
     iterative preorder traversal and level-order traversal.
     iterative inorder and postorder traversal.
     a function to determine the height of a binary tree by iterative DFS.
