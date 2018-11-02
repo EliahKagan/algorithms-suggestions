@@ -9,17 +9,17 @@ The list is built from tail to head as functions are called, and correspondingly
 
 ### Immutable singly linked lists work as space-saving "copyable" stack data structures.
 
-To push, make a "new" list with the old list as its tail, by creating a node that points to the old head node and updating your header pointer to point to it. To pop, advance your header pointer to the tail (i.e., by one node). Each case requires only constant time and space, and can be done independently and concurrently without any corruption of state. (You need separate header pointers, but not separate list nodes.)
+To push, make a "new" list with the old list as its tail, by creating a node that points to the old head node and updating your head pointer to point to it. To pop, advance your head pointer to the tail (i.e., by one node). Each case requires only constant time and space, and can be done independently and concurrently without any corruption of state. (You need separate head pointers, but not separate list nodes.)
 
 ### A doubly linked list can be traversed in either direction without extra space.
 
-The only auxiliary space required to traverse a doubly linked list in reverse is the space needed to hold a pointer to the current node in the list--just like if one traverses it forward. A doubly linked list's back pointers are topologically similar to its forward pointers. In many implementations, which ones are reagarded to be which is merely a matter of convention.
+The only auxiliary space required to traverse a doubly linked list in reverse is the space needed to hold a pointer to the current node in the list--just like traversing it forward. A doubly linked list's back pointers are topologically similar to its forward pointers. In many implementations, which ones are reagarded to be which is merely a matter of convention.
 
 If one traverses forward some number of links in a doubly linked list, it's *not* necessary (and would typically be useless) to use recursion or a stack data structure to remember where to get back to. Just keep track of how far you went, and follow the back pointers that number of times.
 
 ### Reverse traversal of a singly-linked list using recursion or a stack data structure is effectively building the list (or part of it) in reverse.
 
-One way to traverse a singly-linked list in reverse is to recurse to node where you wish to start, and then visit the precending nodes in "postorder," i.e., while retreating.
+One way to traverse a singly-linked list in reverse is to recurse to the node where you wish to start, and then visit the precending nodes in "postorder," i.e., while retreating.
 
 With recursion in most languages, this is only safe if the porton of the list being used is short; otherwise it may overflow the call stack. But using a stack data structure instead of the call stack lifts this restriction.
 
