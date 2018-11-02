@@ -1,6 +1,6 @@
-### Call stacks are often special cases of singly-linked lists.
+### Call stacks are sometimes implemented as special cases of singly-linked lists.
 
-Each stack frame holds:
+In such an implementation, each stack frame holds:
 
 - a return address, the **link**, *and*
 - local (automatic) variables, the **data**.
