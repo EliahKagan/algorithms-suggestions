@@ -1,4 +1,4 @@
-### Call stacks are sometimes implemented as special cases of singly-linked lists.
+### Call stacks are often implemented as special cases of singly-linked lists.
 
 In such an implementation, each stack frame holds:
 
