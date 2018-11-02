@@ -1,25 +1,37 @@
 Define and write tests for (warmup):
-    a function that prints a vector, of anything printable, on a line.
-    a function that sorts a vector of int (can use std::sort).
-    a function that sorts a vector of int, but puts all odds before all evens.
-    a function that finds the index of an element in a vector if present.
+    a function to print a vector, of anything printable, on a line.
+    a function to sort a vector of int (can use std::sort).
+    a function to sort a vector of int, but puts all odds before all evens.
+    a function to find the index of an element in a vector if present.
+    [optional] a function to sort a vector using insertion sort.
+    [optional] a function to sort a vector using recursive mergesort.
+    [optional] a function to sort a vector using iterative mergesort.
 
 Define and write tests for (object pool):
     a class template providing an expanding (but not contracting) object pool.
 
 Define and write tests for (singly linked lists - creation and traversal):
     a singly linked list node type.
-    a function that constructs a singly linked list from a vector.
-    a function that determines the size of a singly linked list.
-    a function that constructs a vector from a singly linked list.
-    a function that finds a value, if present, in a singly linked list.
-    a function that splits a list into two lists based on matching a predicate.
+    a function to construct a singly linked list from a vector.
+    a function to determine the size of a singly linked list.
+    a function to construct a vector from a singly linked list.
+    a function to find a value, if present, in a singly linked list.
+    [optional] a function to remove the node with the smallest element.
+    [optional] a function that tells if a list is sorted.
+    [optional] a function to break a list into two halves as close as possible to the middle.
+    [optional] a function to concatenate two lists.
+    [optional] a function to build vector<Lnode<T>*>, std::sort it by element values, and relink.
 
 Define and write tests for (singly linked lists - other common operations):
-    a function that compares singly linked lists for sequence equality.
-    a function that copies a singly linked list.
-    a function that reverses a singly linked list by rearranging its nodes.
-    a function that merges two sorted linked lists in sorted order.
+    a function to compare singly linked lists for sequence equality.
+    a function to copy a singly linked list.
+    a function to reverse a singly linked list by rearranging its nodes.
+    a function to split a list into two lists based on matching a predicate.
+    a function to merge two sorted linked lists in sorted order.
+    [optional] a function to sort a singly linked list with insertion sort.
+    [optional] a function to sort a singly linked list with recursive mergesort.
+    [optional] a function to sort a singly linked list with iterative mergesort.
+    (these sorting functions should use no more than O(log n) auxiliary space.)
 
 Define and write tests for (singly linked lists - topology and cycle detection):
     a function that checks if a singly linked list has a cycle.
@@ -37,6 +49,8 @@ Define and write tests for (binary trees - creation and traversal):
     iterative inorder and postorder traversal.
     a function to determine the height of a binary tree by iterative DFS.
     iteratively implemented recursive preorder, inorder, and postorder algorithms.
+    [optional] a function to compute the sum all of elements in a tree.
+    [optional] a function to the maximum of that sum over all subtrees O(n) - values can be negative.
 
 Define and write tests for (binary trees - other common operations):
     a function to pretty-print a tree.
@@ -44,6 +58,11 @@ Define and write tests for (binary trees - other common operations):
     a function to copy a tree.
     a function to check if a tree is mirror-symmetric.
     a function to turn a tree into its mirror image by rearranging its nodes.
+    [optional] a function to tell if a binary tree is a BST (binary search tree).
+    [optional] a function to count the leaves (nodes with no children) of a tree.
+    [optional] a function to find the difference in heights between a node's subtrees.
+    [optional] a function to find that difference for all nodes of a tree, in O(n) time.
+    [optional] a function to builds a tree (with unique elements) in O(n) time, given its preorder and inorder sequences.
     (both recursive and iterative implementations of each of these functions.)
 
 Define and write tests for (binary trees - topology/cycle detection/other):
@@ -51,8 +70,8 @@ Define and write tests for (binary trees - topology/cycle detection/other):
         * this will check if there is a cycle or a (nonempty) shared subtree
     a function that detects only violations preventing normal traversal.
         * this will check just for cycles, but NOT for shared subtrees
-    optional: a function that searches in one tree for a copy of another.
-    optional: a function to copy a tree, with all duplicate subtrees shared.
+    [optional] a function that searches in one tree for a copy of another.
+    [optional] a function to copy a tree, with all duplicate subtrees shared in the copy.
     (both recursive and iterative implementations of each of these functions.)
 
 Write functions/types to (undirected graphs - representation and connectivity):
