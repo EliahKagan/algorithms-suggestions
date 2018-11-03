@@ -56,7 +56,8 @@ Define and write tests for (binary trees - creation and traversal):
     [optional] right-to-left preorder, inorder, and postorder traversals.
     [optional] vertical order traversal (following L left pointers and R right pointers puts you in column R - L).
 
-Define and write tests for (binary trees - other common operations):
+Define and write tests for (binary trees - other common or interesting operations):
+    a function to find the lowest common ancestor of two nodes, given their values.
     a function to pretty-print a tree.
     a function to check if trees' topology and corresponding data are the same.
     a function to copy a tree.
@@ -64,6 +65,7 @@ Define and write tests for (binary trees - other common operations):
     a function to turn a tree into its mirror image by rearranging its nodes.
     [optional] a function to count the leaves (nodes with no children) of a tree.
     [optional] a function to tell if a binary tree is a BST (binary search tree).
+    [optional] a function to find the lowest common ancestor of two nodes in a BST.
     [optional] a function to rearrange a binary tree's nodes into a BST with the same topology.
     [optional] a function to find the difference in heights between a node's subtrees.
     [optional] a function to find that difference for all nodes of a tree, in O(n) time.
