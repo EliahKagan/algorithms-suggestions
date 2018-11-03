@@ -54,7 +54,7 @@ Define and write tests for (binary trees - creation and traversal):
     [optional] a function to compute the sum all of elements in a tree.
     [optional] a function to find the maximum of that sum over all subtrees O(n) - values can be negative.
     [optional] right-to-left preorder, inorder, and postorder traversals.
-    [optional] vertical order traversal.
+    [optional] vertical order traversal (following L left pointers and R right pointers puts you in column R - L).
 
 Define and write tests for (binary trees - other common operations):
     a function to pretty-print a tree.
