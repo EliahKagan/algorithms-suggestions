@@ -9,11 +9,11 @@ The list is built from tail to head as functions are called, and correspondingly
 
 ### Immutable singly linked lists work as space-saving "copyable" stack data structures.
 
-To push, make a "new" list with the old list as its tail, by creating a node that points to the old head node and updating your head pointer to point to it. To pop, advance your head pointer to the tail (i.e., by one node). Each case requires only constant time and space, and can be done independently and concurrently without any corruption of state. (You need separate head pointers, but not separate list nodes.)
+To push, make a "new" list with the old list as its tail, by creating a node that points to the old head node and updating your head pointer to point to it. To pop, advance your head pointer to the tail (i.e., by one node). Each case requires only *O(1)* (i.e., constant) time and space, and can be done independently and concurrently without any corruption of state. (You need separate head pointers, but not separate list nodes.)
 
-### A doubly linked list can be traversed in either direction without extra space.
+### A doubly linked list can be traversed in either direction with only *O(1)* extra space.
 
-The only auxiliary space required to traverse a doubly linked list in reverse is the space needed to hold a pointer to the current node in the list--just like traversing it forward. A doubly linked list's back pointers are topologically similar to its forward pointers. In many implementations, which ones are reagarded to be which is merely a matter of convention.
+The only auxiliary space required to traverse a doubly linked list in reverse is the space needed to hold a pointer to the current node in the list--just like traversing it forward. A doubly linked list's back pointers are topologically similar to its forward pointers. In many implementations, which ones are regarded to be which is merely a matter of convention.
 
 If one traverses forward some number of links in a doubly linked list, it's *not* necessary (and would typically be useless) to use recursion or a stack data structure to remember where to get back to. Just keep track of how far you went, and follow the back pointers that number of times.
 
@@ -33,13 +33,13 @@ These are singly-linked lists that share suffixes. Considered together, they con
 
 ### Depth-first traversal of a *binary* tree whose nodes contain parent pointers requires only constant auxiliary space.
 
-In addition to the space to remember what node we are currently on, we must either remember where we just were so we know whether to traverse right or to retreat (or we can retreat and advance in a single step, which is equivalent). But this is still O(1) extra space.
+In addition to the space to remember what node we are currently on, we must either remember where we just were so we know whether to traverse right or to retreat (or we can retreat and advance in a single step, which is equivalent). But this is still *O(1)* extra space.
 
 Rather than needing recursion or a stack data structure to keep track of the path we took so we can retreat, we just follow the parent pointers.
 
 (In an *n-ary* tree with parent pointers, we *could* similarly keep track of where we were and traverse it in constant auxiliary space. However, unless each node's children are stored in a data structure that accepts any node and maps it in constant time to its successor sibling, we would pay for this with extra time. If nodes could have many children, the worst-case time complexity would even be quadratic in the size of the tree itself.)
 
-### Depth-first traversal of a binary tree *without* parent pointers requires O(h) auxiliary space.
+### Depth-first traversal of a binary tree *without* parent pointers requires *O(h)* auxiliary space.
 
 Without parent pointers, we must keep track of where to retreat to. This is naturally expressed with recursion or a stack data structure and requires auxiliary space proportional to the height of the tree.
 
