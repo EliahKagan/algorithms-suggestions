@@ -18,3 +18,9 @@ related rights to the contents of this repository. This work is published from
 the United States.
 
 **See [`COPYING`](COPYING) for details.**
+
+## Acknowledgements
+
+Thanks to **David Vassallo** for extensive consideration and feedback regarding
+this material, and for testing out numerous suggested exercises, and for
+suggesting the exercise to pretty-print a tree.
