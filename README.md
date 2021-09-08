@@ -1,4 +1,4 @@
-# algorithms-suggestions - exercises and notes on algorithms
+# algorithms-suggestions - algorithms exercises and exposition
 
 These are some ideas for exercises in learning algorithms and data structures
 informally, such as in a self-directed way, by mentorship, or by collaboration
