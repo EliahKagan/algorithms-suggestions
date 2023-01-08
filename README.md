@@ -10,7 +10,7 @@ illustrations, presenting some conceptual topics.
 This is *far* from comprehensive coverage of important algorithms and data
 structures topics. It is mostly limited to linked lists and binary trees.
 
-## License
+## License - Public Domain
 
 This repository is made available under
 [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
