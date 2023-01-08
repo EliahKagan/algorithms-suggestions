@@ -8,7 +8,7 @@ illustrations, presenting some conceptual topics.
 This is *far* from comprehensive coverage of important algorithms and data
 structures topics. It is mostly limited to linked lists and binary trees.
 
-## COPYING
+## License
 
 This repository is made available under
 [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/).
@@ -19,8 +19,35 @@ the United States.
 
 **See [`COPYING`](COPYING) for details.**
 
+## What's here?
+
+The contents are:
+
+- `algorithms-suggestions.md` is the main file, containing descriptions of a
+  number of exercises.
+- The `theory-notes*` files are about linked lists and call stacks.
+- `rough-notes.md` and `graphs.md` suggest future directions for more
+  exercises.
+
+Implementations of the exercises are not included in this repository. They are
+in separate repositories.
+
+## Implementations
+
+There are two partial implementations of these exercises:
+[Pool](https://github.com/EliahKagan/Pool) and
+[Search](https://github.com/EliahKagan/Search).
+
 ## Acknowledgements
 
-Thanks to **David Vassallo** for extensive consideration and feedback regarding
-this material, and for testing out numerous suggested exercises, and for
-suggesting the exercise to pretty-print a tree.
+Thanks to [**David Vassallo**](https://github.com/dmvassallo) for extensive
+consideration and feedback regarding this material, and for testing out
+numerous suggested exercises, and for suggesting the exercise to pretty-print a
+tree.
+
+
+## Related work
+
+Although work is not currently continuing on algorithms-suggestions or its
+implementations, the subsequent, more ambitious project
+[palgoviz](https://github.com/EliahKagan/palgoviz) is slightly related.
