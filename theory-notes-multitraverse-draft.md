@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+
 **[Note: This is a draft of a section of `rough-notes.txt` that is currently, and might always be, unsuitable for inclusion in that document. Right now, I think it confuses more than it illuminates, and combines many of the disadvantages of both insufficient and excessive detail. To improve it will require research, and perhaps a rewrite so that it no longer uses C++ as its example language. The technique described here *might* occasionally be reasonable to do in C++, but I no longer think it&rsquo;s reasonable to *explain* it using C++.]**
 
 ### Multiple such traversals (concurrent or interleaved) could share data.

@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+
 # algorithms-suggestions - algorithms exercises and exposition
 
 These are some ideas for exercises in learning algorithms and data structures

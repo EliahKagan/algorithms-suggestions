@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+
 # Future directions?
 
 - self-balancing trees: AVL trees, red-black trees, and splay trees

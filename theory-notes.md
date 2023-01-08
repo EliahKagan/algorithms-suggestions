@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+
 # Theory Notes
 
 ### Call stacks are often implemented as special cases of singly-linked lists.

@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: CC0-1.0 -->
+
 # Theory Notes - Summary
 
 1. Call stacks are often special cases of singly linked lists.
