@@ -1,14 +1,12 @@
-# Algorithms with Dave
+# Some Graph Algorithms
 
-## Graph Algorithms
-
-### Basic Traversals
+## Basic Traversals
 
 1. DFS
 
 2. BFS
 
-### Cycle Detection and Topological Sorting
+## Cycle Detection and Topological Sorting
 
 1. Cycle detection by DFS.
 
@@ -18,7 +16,7 @@
 
 4. Cycle detection by Kahn's algorithm.
 
-### Single-Source Shortest Paths
+## Single-Source Shortest Paths
 
 1. In a tree - O(V + E):
 
