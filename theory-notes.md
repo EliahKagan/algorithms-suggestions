@@ -21,9 +21,9 @@ If one traverses forward some number of links in a doubly linked list, it&rsquo;
 
 ### Reverse traversal of a singly-linked list using recursion or a stack data structure is effectively building the list (or part of it) in reverse.
 
-One way to traverse a singly-linked list in reverse is to recurse to the node where you wish to start, and then visit the precending nodes in &rdquo;postorder,&rdquo; i.e., while retreating.
+One way to traverse a singly-linked list in reverse is to recurse to the node where you wish to start, and then visit the preceding nodes in &rdquo;postorder,&rdquo; i.e., while retreating.
 
-With recursion in most languages, this is only safe if the porton of the list being used is short; otherwise it may overflow the call stack. But using a stack data structure instead of the call stack lifts this restriction.
+With recursion in most languages, this is only safe if the portion of the list being used is short; otherwise it may overflow the call stack. But using a stack data structure instead of the call stack lifts this restriction.
 
 If that stack data structure is itself a singly linked list, then the portion of the list being traversed backwards is built up at the head to produce a reversed list corresponding to part or all of the original list. This is what the common iterative algorithm to reverse a singly linked list does.
 
@@ -31,7 +31,7 @@ Whenever one uses recursion or a stack data structure to visit nodes in a singly
 
 ### Overlapping stacks, implemented as immutable singly-linked lists, form an &rdquo;upside-down&rdquo; tree.
 
-These are singly-linked lists that share suffixes. Considered together, they consistute a tree with *only* parent pointers (and no child pointers).
+These are singly-linked lists that share suffixes. Considered together, they constitute a tree with *only* parent pointers (and no child pointers).
 
 ### Depth-first traversal of a *binary* tree whose nodes contain parent pointers requires only constant auxiliary space.
 
