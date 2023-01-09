@@ -34,11 +34,13 @@ The contents are:
 Implementations of the exercises are not included in this repository. They are
 in separate repositories.
 
-## Implementations
+## Partial implementations
 
-There are two partial implementations of these exercises:
-[Pool](https://github.com/EliahKagan/Pool) and
-[Search](https://github.com/EliahKagan/Search).
+There are three implementations of *some* of these exercises:
+
+- [Pool](https://github.com/EliahKagan/Pool) (C++)
+- [Search](https://github.com/EliahKagan/Search) (C++)
+- [algorithms-python](https://github.com/EliahKagan/algorithms-python) (Python)
 
 ## Acknowledgements
 
