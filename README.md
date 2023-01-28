@@ -54,4 +54,4 @@ tree.
 
 Although work is not currently continuing on algorithms-suggestions or its
 implementations, the subsequent, more ambitious project
-[palgoviz](https://github.com/EliahKagan/palgoviz) is slightly related.
+[palgoviz](https://github.com/EliahKagan/palgoviz) is somewhat related.
